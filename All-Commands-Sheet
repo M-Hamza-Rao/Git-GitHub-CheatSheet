@@ -1,0 +1,38 @@
+git config –global user.name abcdef
+git config –global user.name abcdef@sdfj.com
+git init [to initialize git repo]
+ls -lart  [to show hidden folders]
+git status [to check the status of track and untrack files]
+git status -s
+git add abc [to add one file]
+git add -A
+git commit :: vim editor: Initial commit  Esc :wg Enter
+git commit -m “comment”
+git commit -a -m “skipped staging area”
+touch filename [to create a new file]
+touch .gitignore [to make a ignoring file]
+git checkout filename [to recover file]
+git checkout -f
+git log [to track history]
+git log -p -1
+git diff [to compare original files with files in staging area]
+git diff –stage [to compare files in staging area with last commit]
+git rm –cached filename [to remove from staging area]
+git rm filename [to remove file from directory]
+git branch newBranchName [to create a new branch]
+git checkout branchName [to switch between branches]
+git checkout -b newBranchName [to create and switching to new Branch]
+git merge branchName [to merge new branch to master]
+git clone url folderName(optional)
+git push origin master [to upload a repo branch]
+git push -u origin master [to upload a repo branch]
+git push [will push to branch with recent -u]
+
+Final Setup:-
+SettingsSSH Keysgenerating new SSH Keypaste text2run eval
+run SSH add cmdadd SSH key to github
+copy and paste SSH public key as “cat copied cmd”copy content
+paste as new SSH keychange to SSL from html in repo page
+copy url and paste as “git remote set-url origin url”push
+
+
