@@ -29,10 +29,10 @@ git push -u origin master [to upload a repo branch]
 git push [will push to branch with recent -u]
 
 Final Setup:-
-SettingsSSH Keysgenerating new SSH Keypaste text2run eval
-run SSH add cmdadd SSH key to github
-copy and paste SSH public key as “cat copied cmd”copy content
-paste as new SSH keychange to SSL from html in repo page
-copy url and paste as “git remote set-url origin url”push
+Settings-->SSH Keys-->generating new SSH Key-->paste text2-->run eval
+-->run SSH add cmd-->add SSH key to github
+-->copy and paste SSH public key as “cat copied cmd”-->copy content
+paste as new SSH key-->change to SSL from html in repo page
+copy url and paste as “git remote set-url origin url”-->push
 
 
